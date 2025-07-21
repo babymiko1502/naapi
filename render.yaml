@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: api-limpiador-na
+    env: python
+    buildCommand: ""
+    startCommand: python apiornah.py
+    plan: free
